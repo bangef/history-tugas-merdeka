@@ -1,0 +1,239 @@
+/* import font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+/* end import font */
+
+/* universal */
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+
+/* end universal */
+
+/* header */
+header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://png.pngtree.com/png-vector/20190318/ourlarge/pngtree-school-doodle-seamless-pattern-with-bookpencilglobebagrulerand-study-lamp-drawing-vector-illustration-png-image_858328.jpg");
+    background-size: 500px;
+    background-repeat: repeat;
+    width: 100%;
+}
+
+.banner-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #171717;
+}
+
+/* end header */
+
+/* nav-horizontal*/
+nav#nav-horizontal {
+    height: 8vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2),
+        0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav#nav-horizontal>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav#nav-horizontal>ul>li {
+    margin: 0 1em;
+}
+
+nav#nav-horizontal>ul>li>a:link,
+nav#nav-horizontal>ul>li>a:visited {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 2px dashed #171717;
+    color: #171717;
+}
+
+nav#nav-horizontal>ul>li>a:hover {
+    background-color: #171717;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+nav#nav-horizontal>ul>li>a:active {
+    border: 2px dashed #171717;
+    border-radius: 5px;
+    color: #171717;
+    background-color: #fff;
+    transition: all ease 0.2s;
+}
+
+/* end nav */
+
+/* section-main */
+section {
+    height: auto;
+    display: flex;
+}
+
+/* end section-main*/
+
+/* sidebar */
+aside {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+nav#nav-vertical>ul {
+    list-style-type: none;
+}
+
+nav#nav-vertical>ul>li>a:link,
+nav#nav-vertical>ul>li>a:visited {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    border: 2px dashed #171717;
+    text-decoration: none;
+    color: #171717;
+}
+
+nav#nav-vertical>ul>li>a:hover {
+    background-color: #171717;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+nav#nav-vertical>ul>li>a:active {
+    border: 2px dashed #171717;
+    border-radius: 5px;
+    color: #171717;
+    background-color: #fff;
+    transition: all ease 0.2s;
+}
+
+/* end sidebar */
+
+/* article */
+article {
+    width: 70%;
+    height: inherit;
+    padding: 1em;
+    border-left: 2px dashed #171717;
+}
+
+article>h2 {
+    border-bottom: 3px dashed #171717;
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
+article>p {
+    font-size: 0.8rem;
+    line-height: 2em;
+    margin: 1em 0;
+    text-align: justify;
+}
+
+form {
+    width: 50%;
+    border: 2px dashed #171717;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #B3B7D4;
+}
+
+input,
+select,
+textarea {
+    font-size: 1rem;
+    border: 1px solid #B3B7D4;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1em;
+    color: #171717;
+    padding: 0 1em;
+    height: 3em;
+}
+
+textarea {
+    height: auto !important;
+    padding: 0.5em 1em;
+}
+
+input[type=submit] {
+    background-color: #171717;
+    color: #fff;
+}
+
+input[type=submit]:hover {
+    background-color: #171717;
+    color: #fff;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+
+input[type=submit]:active {
+    border: 2px dashed #171717;
+    color: #171717;
+    background-color: #fff;
+    transition: all ease 0.5s;
+    cursor: progress;
+}
+
+
+/* end article */
+
+/* footer */
+footer {
+    height: 8vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>span {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+/* end footer */
+
+/* iklan */
+.iklan {
+    height: 150px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 2px dashed #171717;
+    border-radius: 10px;
+}
+
+/* end iklan */
